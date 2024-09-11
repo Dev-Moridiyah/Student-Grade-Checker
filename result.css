@@ -1,0 +1,59 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form{
+    border: 3px solid black;
+    border-style: dotted;
+    border-radius: 5px;
+    padding: 20px;
+    width: 700px;
+    background-color: rgb(254, 243, 228);
+}
+
+h1{
+    text-align: center;
+}
+
+label{
+    font-size: 25px;
+    font-weight: 900;
+}
+
+input{
+    height: 30px;
+    border: 1.6px solid black;
+    border-radius: 3px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.button{
+    height: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: 900;
+    background-color: rgb(255, 181, 193);
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: rgb(249, 209, 216);
+}
+
+.distance {
+    display: inline-block;
+    width: 270px;
+}
+
+.result{
+    padding: 5px 10px;
+}
+
